@@ -1,0 +1,11 @@
+{
+	"name": "Elixir",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"VARIANT": "1.11.4-slim",
+			"INSTALL_ZSH": "false"
+		}
+	},
+	"forwardPorts": [4000]
+}
